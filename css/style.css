@@ -1,0 +1,202 @@
+
+/*google fonts*/
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/*google fonts*/
+header{
+   background: rgba(255, 144, 14, 0.10);
+   padding: 50px 240px;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section_tittle{
+    font-size: 2.8rem;
+    font-weight:700;
+    text-align: center;
+    color: #131313;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+} 
+nav li a{
+    text-decoration: none;
+    color:#424242;
+}
+.banner_text{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+banner text h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+banner text p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn_primary{
+    background-color:#FF900E;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 5px;
+    margin-top: 32px;
+}
+.banner_img{
+    margin-top: 50px;
+}
+/*  features part start */
+main{
+    max-width: 1440px;
+    margin: auto;
+}
+.teams_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.teams_img_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:24px;
+}
+
+.teams_content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.bold{
+    color:#131313;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.color_bold{
+    color: #FF900E;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.quick{
+color: #727272;
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 500;
+
+}
+
+.love_enjoy_features{
+   display: flex;
+   margin-top: 130px;
+   gap: 100px;
+}
+
+.love_enjoy_content_lower{
+    margin-top: 200px;
+}
+.ten_years_batch{
+    padding: 40px;
+    width: 242px;
+    height: 100px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align:center; 
+    position: relative;
+    bottom: 100px;
+}
+ten_years_batch h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    margin:0;
+}
+
+
+.text_light_gray{
+    color: #727272;
+}
+
+.facts_card_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.facts_card_container .card{
+border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+padding:30px;
+}
+.facts_card_container{
+    font-weight: 600;
+    font-size: 1,25rem;
+}
+
+.facts_card_container .card_stat{
+    font-size: 2.8rem;
+    color:#424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.facts_card_container .card_tittle{
+    font-weight: 600;
+    margin-top: 5px;
+    font-size: 1.25rem;
+}
+
+
+.sponsor{
+    text-align: center;
+}
+.Sponspors_img_container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+.Sponspors_img_containe img{
+    width: 165px;
+}
+
+
+.foot_part{
+    border-radius: 8px;
+    background: #FFF4E7;
+    width: 1920px;
+    height: 100px;
+    
+   
+}
+.foot_part h5{
+    text-align: center;
+    padding-top: 50px;
+    
+    
+}
+
